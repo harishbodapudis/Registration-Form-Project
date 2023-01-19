@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.firstName-box {
+  height: 60px;
+}
+.lastName-box {
+  height: 60px;
+  margin-top: 10px;
+}
+.submit-btn {
+  margin-top: 10px;
+}
+.req-text {
+  font-size: 12px;
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+.bg-color {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #ea580c;
+}
+.form-container {
+  box-shadow: 0px 0px 18px 4px #cbd2d9;
+  border-radius: 8px;
+  padding: 10px;
+  width: 50%;
+  height: 50vh;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+.success-page-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+
+.another-response-btn {
+  background-color: #ea580c;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.firstName-label {
+  font-weight: bold;
+  color: #475569;
+}
+.lastName-label {
+  font-weight: bold;
+  color: #475569;
+}
+.firstName {
+  padding: 5px 15px;
+  outline: none;
+  color: #cbd2d9;
+}
+.lastName {
+  padding: 5px 15px;
+  outline: none;
+  color: #cbd2d9;
+}
+.bg-white {
+  background-color: #ffffff;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+}
